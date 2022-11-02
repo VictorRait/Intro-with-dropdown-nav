@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+
+    
+<div class="overlay hidden">
+ 
+ 
+  
+    <div class="button-wrapper-close">
+    <img class="close-btn"src="./images/icon-close-menu.svg" alt="icon">
+  </div>
+  <div class="overlay-content">
+    
+    <ul>
+      <li class="head-list">
+        Features
+        <img src="./images/icon-arrow-down.svg" alt="" />
+        <div class="sub-menu-mobile one hidden">
+          <ul id="list-drop1">
+            <li><img src="./images/icon-todo.svg" alt="" />Todo List</li>
+            <li><img src="./images/icon-calendar.svg" alt="" />Calendar</li>
+            <li><img src="./images/icon-reminders.svg" alt="" />Reminder</li>
+            <li><img src="./images/icon-planning.svg" alt="" />Planning</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="head-list">
+        Company
+        <img src="./images/icon-arrow-down.svg" alt="" />
+        <div class="sub-menu-mobile two hidden">
+          <ul id="list-drop2">
+            <li>History</li>
+            <li>About</li>
+            <li>Blog</li>
+            
+          </ul>
+          </div>
+      </li>
+      <li >Careers</li>
+      <li >About</li>
+    </ul>
+    <div class="overlay-btn">     <ul>
+      <li>Login </li>
+      <li > Register</li>
+    </ul></div>
+  </div>
+  
+</div>
+<div class="primary hidden"> </div>
+    <nav>
+    <div class="nav-bar">
+    
+      <div class="nav-left">
+        <div class="snap-logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+       
+        <ul>
+          <li class="head-list">
+            <p>Features</p>
+            <img src="./images/icon-arrow-down.svg" alt="" />
+            <div class="sub-menu one hidden">
+              <ul>
+                <li><img src="./images/icon-todo.svg" alt="" /><p>Todo List</p></li>
+                <li><img src="./images/icon-calendar.svg" alt="" /><p>Calendar</p></li>
+                <li><img src="./images/icon-reminders.svg" alt="" /><p>Reminders</p></li>
+                <li><img src="./images/icon-planning.svg" alt="" /><p>Planning</p></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="head-list">
+            <p>Company</p>
+            <img src="./images/icon-arrow-down.svg" alt="" />
+            <div class="sub-menu two hidden">
+              <ul>
+                <li><p>History</p></li>
+                <li><p>Our Team</p></li>
+                <li><p>Blog</p></li>
+                
+              </ul>
+          </li>
+          <li ><p>Careers</p></li>
+          <li ><p>About</p></li>
+        </ul>
+      </div>
+   
+      <div class="nav-right">
+        <div class="hamburger-menu">
+          <img src="./images/icon-menu.svg" alt="">
+        </div>
+        <ul>
+          <li><p>Login</p> </li>
+          <li id="bordered-btn"> Register</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <main>
+      <div class="main-container">
+        <div class="right">
+          <picture>
+            <source media="(max-width:800px)"srcset="./images/image-hero-mobile.png" />
+            <img src="./images/image-hero-desktop.png" alt="hero">
+          </picture>
+        </div>
+        
+        <div class="left"> <div class="header"><h2>Make remote work</h2></div>
+          <div class="Content">
+          <p>Get your team in sync, no matter your location.
+            Streamline processes, create team rituals, and watch productivity soar.</p>
+          </div>
+            <button>Learn more</button>
+            <div class="logos">
+            <ul>
+              <li> <img src="./images/client-databiz.svg" alt=""> </li>
+              <li><img src="./images/client-audiophile.svg" alt=""></li>
+              <li><img src="./images/client-meet.svg" alt=""></li>
+              <li><img src="./images/client-maker.svg" alt=""></li>
+            </ul></div>
+          </div>
+      </div>
+    </main>
+
+   
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="victorrait.github.io/VictorRait/">Victor Rait</a>.
+    </div>
+ 
+  <script src="script.js"></script>
+  </body>
+ 
+</html>
